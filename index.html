@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Days Grace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section img {
+            max-width: 100%;
+        }
+        
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THREE DAYS GRACE</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#banda">La Banda</a></li>
+            <li><a href="#discografia">Discografía</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="banda" class="section">
+            <h2>La Banda</h2>
+            <img src="/api/placeholder/800/400" alt="Three Days Grace">
+            <p>Three Days Grace es una banda canadiense de rock alternativo y metal alternativo formada en 1997 en Norwood, Ontario.</p>
+            <p>La formación actual incluye a Matt Walst (voz), Barry Stock (guitarra), Brad Walst (bajo) y Neil Sanderson (batería).</p>
+        </section>
+        
+        <section id="discografia" class="section">
+            <h2>Discografía</h2>
+            <ul>
+                <li>Three Days Grace (2003)</li>
+                <li>One-X (2006)</li>
+                <li>Life Starts Now (2009)</li>
+                <li>Transit of Venus (2012)</li>
+                <li>Human (2015)</li>
+                <li>Outsider (2018)</li>
+                <li>Explosions (2022)</li>
+            </ul>
+        </section>
+        
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" style="width: 100%; margin-bottom: 10px; padding: 5px;">
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" style="width: 100%; margin-bottom: 10px; padding: 5px;">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" style="width: 100%; margin-bottom: 10px; padding: 5px;"></textarea>
+                </div>
+                <input type="submit" value="Enviar" style="padding: 5px 15px;">
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Sitio de fans de Three Days Grace | 2025</p>
+    </footer>
+</body>
+</html>
